@@ -1,0 +1,6 @@
+20:53:52.202 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@10f7c76
+20:53:59.463 [main] INFO  mytest.HomePage - Now hitting qa click academy
+20:54:03.139 [main] DEBUG mytest.HomePage - button is click successfully
+20:54:05.874 [main] INFO  mytest.HomePage - this is retricted user
+20:54:08.164 [main] INFO  mytest.HomePage - Now hitting qa click academy
+20:54:09.807 [main] DEBUG mytest.HomePage - button is click successfully

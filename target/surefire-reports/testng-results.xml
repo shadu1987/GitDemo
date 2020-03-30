@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-28T14:50:58 EDT" name="Suite" finished-at="2020-03-28T14:52:07 EDT" duration-ms="69107">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@4e268090]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-03-28T14:50:58 EDT" name="validation user name and password" finished-at="2020-03-28T14:52:07 EDT" duration-ms="69107">
+      <class name="CucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CucumberOptions.TestRunner@4e268090]" started-at="2020-03-28T14:50:58 EDT" name="setUpClass" finished-at="2020-03-28T14:50:58 EDT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@4e268090]" started-at="2020-03-28T14:50:59 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-28T14:52:07 EDT" duration-ms="68660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@4e268090]" started-at="2020-03-28T14:52:07 EDT" name="tearDownClass" finished-at="2020-03-28T14:52:07 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+    </test> <!-- validation user name and password -->
+  </suite> <!-- Suite -->
+</testng-results>
